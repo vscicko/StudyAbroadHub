@@ -11044,3 +11044,21 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.portfolio-item img {
+  width: 100%;
+  height: 250px; /* made taller from 200px -> 250px */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.modal-body img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px; /* FORCE same height */
+  object-fit: cover; /* This will crop excess and center */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
